@@ -1,0 +1,13 @@
+server:
+  port: 8761
+
+#각각 microservice 이름 설정
+spring:
+  application:
+    name: discoveryservice
+
+#eureka 서버 임으로 아래는 false 처리
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
